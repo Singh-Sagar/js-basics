@@ -1,0 +1,6 @@
+DOM model is basically used to interact with structure of a page using javascript
+Important things to keep in mind:
+1. document.getElementById();
+2. getInnerHTML getInnerText get
+3. nodelist and html collection are not pure arrays
+4. return data type of querySelector and querySelectorAll

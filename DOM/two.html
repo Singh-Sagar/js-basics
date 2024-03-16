@@ -6,11 +6,17 @@
     <title>DOM | basics</title>
 </head>
 <body style="background-color: black;">
-    <div class="parent">
+    <div class="parent" style="color:white">
         <div class="day">Hunter x Hunter</div>
         <div class="day">FMAB</div>
         <div class="day">Castlevania</div>
         <div class="day">FLCL</div>
     </div>
 </body>
+<script>
+    const parent = document.querySelector('.parent');
+    console.log(parent);
+    console.log(parent.children); // returns an HTMLcollection
+    console.log(parent.children[3])
+</script>
 </html>
